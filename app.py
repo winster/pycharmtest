@@ -11,6 +11,6 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    pydevd.settrace('203.117.132.170', port=5000, stdoutToServer=True, stderrToServer=True)
+    #pydevd.settrace('172.22.184.50', port=5000, stdoutToServer=True, stderrToServer=True)
     #app.run(host='0.0.0.0', port=5000)
     app.run()
